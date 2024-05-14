@@ -17,9 +17,9 @@ The problem is very flexible, where:
 
 This flexibility yields a very complex problem, so the approach was to use the inspiration of a parent-children generic algorithm (GA), but with custom functions built to accommodate this complexity.
 
-Several algorithms were tried, but the here presented breaks the problem into two: at each iteration, cross/mutate the population (at the current group sizes), then cross/mutate the group sizes. The functions for each step are, respectively, at (repopulating.R)[repopulating.R] and (resizing.R)[resizing.R].
+Several algorithms were tried, but the here presented breaks the problem into two: at each iteration, cross/mutate the population (at the current group sizes), then cross/mutate the group sizes. The functions for each step are, respectively, at [repopulating.R](repopulating.R) and [resizing.R](resizing.R).
 
-These iterations are done in the main loop described in (main.R)[main.R], where there also is some dummy data for an example. In (utils.R)[utils.R] there are some utility functions like a custom progress bar and a very interesting solution to find optimal childs using recursion.
+These iterations are done in the main loop described in [main.R](main.R), where there also is some dummy data for an example. In [utils.R](utils.R) there are some utility functions like a custom progress bar and a very interesting solution to find optimal childs using recursion.
 
 
 ## The Context
